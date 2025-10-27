@@ -6,7 +6,7 @@ res.then((resp)=>{
 .then((data)=>{
     console.log("Data: ",data);
 })
-.catch((erro)=>{
+.catch((err)=>{
     console.log(err);
 })
 .finally(()=>{
